@@ -13,7 +13,7 @@ form.appendChild(nameLabel);
 const nameInput = document.createElement('input')
 nameInput.type = 'text'
 nameInput.name = 'name'
-form.appendChild(emailLabel);
+form.appendChild(nameInput);
 
 
 // Email Label
