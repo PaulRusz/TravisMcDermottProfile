@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Travis McDermott</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutMe.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to our website. We are here to provide you with valuable information.</p>
+        </section>
+
+        <!-- Container for the About Me page -->
+        <div class="container">
+            <h1>About Me</h1>
+            <div id="aboutMeContent">
+                <p>Name: <span id="fullName"></span></p>
+                <p>Bio: <span id="bio"></span></p>
+                <p>Skills: <span id="skills"></span></p>
+                <p>Experience:</p>
+                <ul id="experienceList"></ul>
+            </div>
+        </div>
+    
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Paul Ruszkay. All rights reserved.</p>
+    </footer>
+
+
+    <script type="module" src="scripts/AboutMe.js"></script>
+</body>
+</html>
